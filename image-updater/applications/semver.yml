@@ -4,7 +4,8 @@ metadata:
   name: follow-semver02
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: ghcr.io/g33ta/gitops-cert-level-2-examples: nginx
+    argocd-image-updater.argoproj.io/image-list: ghcr.io/g33ta/gitops-cert-level-2-examples
+    argocd-image-updater.argoproj.io/argocd.kustomize.image-name: nginx
 spec:
   project: default
 
